@@ -13,3 +13,11 @@ double Point::getY() const
 {
     return y;
 }
+bool Point::same(Point p_1,Point p_2)
+{
+    if (p_1.getX()==p_2.getX() & p_1.getY()==p_2.getY())
+    {
+        return True;
+    }
+    return False;
+}
