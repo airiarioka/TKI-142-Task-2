@@ -22,8 +22,8 @@ int main()
     Point b=getPoint("Second point: ");
     Point c=getPoint("Third point: ");
     Triangle ABC(a,b,c);
-    std::cout<<"R = "<<ABC.getR_aroundTriangle()<<std::endl;
-    std::cout<<"r = "<<ABC.getR_inTriangle();
+    cout<<"R = "<<ABC.getR_aroundTriangle()<<endl;
+    cout<<"r = "<<ABC.getR_inTriangle();
 
     return 0;
 }
@@ -40,6 +40,5 @@ Point getPoint(string report)
         cout<<"Error 1\n";
         exit(1);
     }
-    Point p(p_x,p_y);
-    return p;
+    return (p_x,p_y);
 }
