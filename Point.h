@@ -32,11 +32,11 @@ class Point
         *@return Возвращает координату точки по y.
         */
         double getY() const;
-        /**
-        *@brief Проверяет две точки на совпадение.
-        *@param p_1 Первая точка.
-        *@param p_2 Вторая точка.
-        *@return True если равны, иначе false.
-        */
-        bool same(Point p_1,Point p_2);
 };
+/**
+*@brief Проверяет две точки на совпадение.
+*@param p_1 Первая точка.
+*@param p_2 Вторая точка.
+*@return True если равны, иначе false.
+*/
+bool same(Point p_1,Point p_2);
